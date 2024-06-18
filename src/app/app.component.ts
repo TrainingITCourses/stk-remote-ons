@@ -5,9 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    
+    <h3>Welcome to {{ title }}!</h3>
+    <p>This is a widget that is part of a larger application.</p>
   `,
   styles: [],
 })
